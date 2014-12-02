@@ -20,6 +20,11 @@ public class MainController {
 		return "teste";
 	}
 	
+	@RequestMapping(value = "/dashboard", method = RequestMethod.GET) 
+	public String dashboard() {
+		return "dashboard";
+	}
+	
 	public String setUsuario() {
 		return "op";
 	}
